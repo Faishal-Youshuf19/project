@@ -40,6 +40,7 @@
   text-align: center;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
 
   background: rgb(82, 195, 3);
 }
@@ -75,4 +76,59 @@
   text-align: center;
   opacity: 0.7;
   margin: 32px;
+}
+#card-box {
+  width: 976px;
+  margin: 120px auto;
+}
+#card-box .info {
+}
+
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.card-container {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  font-family: Work Sans;
+}
+.card {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box {
+  max-width: 280px;
+}
+.card .image-box img {
+  width: 100%;
+}
+.card .shop {
+  border-radius: 8px;
+
+  background: rgba(82, 195, 3, 0.15);
+
+  padding: 10px 20px 12px 20px;
 }
